@@ -1,7 +1,7 @@
 [submodule "ruby/puppet"]
 	path = ruby/puppet
 	url = https://github.com/jsane/puppet.git
-	branch = task/master/PA-1454_Puppet_agent_must_support_SHA384
+	branch = task/master/PUP-8021_Puppet_should_support_all_FIPS_approved_hash_algs
 [submodule "ruby/facter"]
 	path = ruby/facter
 	url = https://github.com/puppetlabs/facter.git

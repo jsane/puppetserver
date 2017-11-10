@@ -1,6 +1,7 @@
 [submodule "ruby/puppet"]
 	path = ruby/puppet
-	url = https://github.com/puppetlabs/puppet.git
+	url = https://github.com/jsane/puppet.git
+        branch = task/master/PUP-8141_Replace_hardcoded_use_of_md5_for_fips
 [submodule "ruby/facter"]
 	path = ruby/facter
 	url = https://github.com/puppetlabs/facter.git

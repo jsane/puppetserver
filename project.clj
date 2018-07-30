@@ -81,7 +81,7 @@
                  [puppetlabs/trapperkeeper-scheduler]
                  [puppetlabs/trapperkeeper-status]
                  [puppetlabs/kitchensink]
-                 [puppetlabs/ssl-utils]
+                 [puppetlabs/ssl-utils "1.0.1-SNAPSHOT"]
                  [puppetlabs/ring-middleware]
                  [puppetlabs/dujour-version-check]
                  [puppetlabs/http-client]

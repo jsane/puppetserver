@@ -87,6 +87,7 @@
                  [puppetlabs/http-client]
                  [puppetlabs/comidi]
                  [puppetlabs/i18n]
+                 [puppetlabs/trapperkeeper-webserver-jetty9 "2.2.1-SNAPSHOT"]
 
                  ;; dependencies for clojurescript dashboard
                  [puppetlabs/cljs-dashboard-widgets "0.1.1"]
@@ -143,8 +144,8 @@
 
   :profiles {:dev {:source-paths  ["dev"]
                    :dependencies  [[org.clojure/tools.namespace]
-                                   [puppetlabs/trapperkeeper-webserver-jetty9 nil]
-                                   [puppetlabs/trapperkeeper-webserver-jetty9 nil :classifier "test"]
+                                   [puppetlabs/trapperkeeper-webserver-jetty9 "2.2.1-SNAPSHOT"]
+                                   [puppetlabs/trapperkeeper-webserver-jetty9 "2.2.1-SNAPSHOT" :classifier "test"]
                                    [puppetlabs/trapperkeeper nil :classifier "test" :scope "test"]
                                    [puppetlabs/trapperkeeper-metrics :classifier "test" :scope "test"]
                                    [puppetlabs/kitchensink nil :classifier "test" :scope "test"]
